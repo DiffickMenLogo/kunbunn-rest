@@ -14,6 +14,6 @@ COPY src ./src
 
 COPY package*.json tsconfig.json tsconfig.build.json ./
 
-RUN npm ci
+# RUN npm ci
 RUN npm run build
 
